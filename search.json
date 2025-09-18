@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "annaprince719.github.io.html",
+    "href": "annaprince719.github.io.html",
+    "title": "Personal Website",
+    "section": "",
+    "text": "UTD campus expands by the day!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Weekly Assignments",
+    "section": "",
+    "text": "Assignment One: Quarto Website\nAssignment Two: gTrendsR\nDataCamp Podcast Writeup"
+  },
+  {
+    "objectID": "Assignment Two.html",
+    "href": "Assignment Two.html",
+    "title": "Assignment Two",
+    "section": "",
+    "text": "R-generated graphic [via given code sample]\n\n\n\n\n\nOnline-generated graphic [proper names capitalized]\n\n\nIn practice, they both have the same information and basic toggle features, though the online version seems more condensed. Both were about equally user-friendly, once I finally got the gTrendsR package installed and Google stopped blocking my requests.\nThe difference is mostly versatility and specificity: the online portal is better for quick visual reference, whereas the R package has more options for toggling size, appearance, and labels. I’d use the latter for a research project or conference proposal.\nThe R package is also nice because you can selectively add more information and it arranges nicely into a dataframe. The CSV file that auto-downloads from Google Trends only has a date and relative number of hits for each search term, whereas the R package added columns for geotag and categorization. You can download these as separate CSV files online, but merging them would be tedious and could corrupt the data."
+  },
+  {
+    "objectID": "DataFrame Writeup.html",
+    "href": "DataFrame Writeup.html",
+    "title": "DataFrame Writeup",
+    "section": "",
+    "text": "This episode [“Delivering Smarter Cities & Better Public Policy w/ Data,” February 2022] was a conversation with Kaveh Vessali, a consultant at PwC Middle East working on digital transformation and smart cities. What immediately struck me was his eclectic professional background, which spanned urban planning to Silicon Valley to the State Department to consulting. As a grad student with a lot of disparate interests, it’s nice to see that bridging different industries actually isn’t a pipe dream, and people do merge these skills successfully and productively.\nThe discussion was mainly Vessali’s career, and then the connection between data and public policy. (I chose this episode because it had a clear connection to EPPS philosophy, and my interest in data science for policy research). The main point, that more and “bigger” data doesn’t change the fundamental “dimensions of life” or core policy considerations, was well-taken. At least in my own limited research experience, “big data” is only novel in method and application, not core theoretical questions. I fully resonate with his suggestion that we should train public policymakers to pragmatically leverage data for specific use-cases, not pour into an “army of [data] specialists” who don’t understand the practical application of their skills.\nI am a bit curious about his proposal to develop “ground-up data-informed communities,” especially given the pragmatic constraints he mentions later on. Some of the key steps he mentions, like “baseline data literacy” or training up policymakers, imply some amount of existing data, resources, and people to work with. His suggestion to tailor data to business priorities, likewise, suggests existing business priorities, which are presumably somewhat informed by data. Of course, this is a chicken-egg problem that may be moot in practice, since nothing is presumed to exist in a vacuum."
+  },
+  {
+    "objectID": "Assignment One.html",
+    "href": "Assignment One.html",
+    "title": "Assignment One",
+    "section": "",
+    "text": "This quarto site has a home page with an aerial of UTD’s campus, a PDF of my CV, and an “assignments” page with links to weekly assignments (all as quarto documents that function as separate webpages).\nIt uses the Jolla theme and Nunito Sans font, which I think is both readable and professional. Throughout are some icons and links to the EPPS-SDAR and Taiwan Studies Initiative homepages.\nIn creating this site, some credit goes to Dr. Gang He’s online repository of academic Quarto pages, Dr. Charlotte Wickham’s Youtube tutorial series, DataGeneration’s quarto guide, as well as the GitHub and Quarto user guides and FAQs.\nhttps://youtu.be/k65E-8PXZmA?si=bMCLYRU4cPwJ3Gxu\nhttps://drganghe.github.io/quarto-academic-site-examples.html\nhttps://quarto.org/docs/guide/\nhttps://datageneration.io/dp_genai/quartowebsite\nhttps://github.com"
+  }
+]
