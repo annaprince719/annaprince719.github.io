@@ -1,0 +1,233 @@
+[
+  {
+    "objectID": "annaprince719.github.io.html",
+    "href": "annaprince719.github.io.html",
+    "title": "Personal Website",
+    "section": "",
+    "text": "UTD campus expands by the day!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Weekly Assignments",
+    "section": "",
+    "text": "Assignment One: Quarto Website\nAssignment Two: gTrendsR\nAssignment Three: TidyCensus\nAssignment Four: rVest\nAssignment Five: govData\nAssignment Six: Quanteda\nDataCamp Podcast Writeup"
+  },
+  {
+    "objectID": "Assignment Two.html",
+    "href": "Assignment Two.html",
+    "title": "Assignment Two",
+    "section": "",
+    "text": "R-generated graphic [via given code sample]\n\n\n\n\n\nOnline-generated graphic [proper names capitalized]\n\n\nIn practice, they both have the same information and basic toggle features, though the online version seems more condensed. Both were about equally user-friendly, once I finally got the gTrendsR package installed and Google stopped blocking my requests.\nThe difference is mostly versatility and specificity: the online portal is better for quick visual reference, whereas the R package has more options for toggling size, appearance, and labels. I’d use the latter for a research project or conference proposal.\nThe R package is also nice because you can selectively add more information and it arranges nicely into a dataframe. The CSV file that auto-downloads from Google Trends only has a date and relative number of hits for each search term, whereas the R package added columns for geotag and categorization. You can download these as separate CSV files online, but merging them would be tedious and could corrupt the data."
+  },
+  {
+    "objectID": "DataFrame Writeup.html",
+    "href": "DataFrame Writeup.html",
+    "title": "DataFrame Writeup",
+    "section": "",
+    "text": "This episode [“Delivering Smarter Cities & Better Public Policy w/ Data,” February 2022] was a conversation with Kaveh Vessali, a consultant at PwC Middle East working on digital transformation and smart cities. What immediately struck me was his eclectic professional background, which spanned urban planning to Silicon Valley to the State Department to consulting. As a grad student with a lot of disparate interests, it’s nice to see that bridging different industries actually isn’t a pipe dream, and people do merge these skills successfully and productively.\nThe discussion was mainly Vessali’s career, and then the connection between data and public policy. (I chose this episode because it had a clear connection to EPPS philosophy, and my interest in data science for policy research). The main point, that more and “bigger” data doesn’t change the fundamental “dimensions of life” or core policy considerations, was well-taken. At least in my own limited research experience, “big data” is only novel in method and application, not core theoretical questions. I fully resonate with his suggestion that we should train public policymakers to pragmatically leverage data for specific use-cases, not pour into an “army of [data] specialists” who don’t understand the practical application of their skills.\nI am a bit curious about his proposal to develop “ground-up data-informed communities,” especially given the pragmatic constraints he mentions later on. Some of the key steps he mentions, like “baseline data literacy” or training up policymakers, imply some amount of existing data, resources, and people to work with. His suggestion to tailor data to business priorities, likewise, suggests existing business priorities, which are presumably somewhat informed by data. Of course, this is a chicken-egg problem that may be moot in practice, since nothing is presumed to exist in a vacuum."
+  },
+  {
+    "objectID": "Assignment One.html",
+    "href": "Assignment One.html",
+    "title": "Assignment One",
+    "section": "",
+    "text": "This quarto site has a home page with an aerial of UTD’s campus, a PDF of my CV, and an “assignments” page with links to weekly assignments (all as quarto documents that function as separate webpages).\nIt uses the Jolla theme and Nunito Sans font, which I think is both readable and professional. Throughout are some icons and links to the EPPS-SDAR and Taiwan Studies Initiative homepages.\nIn creating this site, some credit goes to Dr. Gang He’s online repository of academic Quarto pages, Dr. Charlotte Wickham’s Youtube tutorial series, DataGeneration’s quarto guide, as well as the GitHub and Quarto user guides and FAQs.\nhttps://youtu.be/k65E-8PXZmA?si=bMCLYRU4cPwJ3Gxu\nhttps://drganghe.github.io/quarto-academic-site-examples.html\nhttps://quarto.org/docs/guide/\nhttps://datageneration.io/dp_genai/quartowebsite\nhttps://github.com"
+  },
+  {
+    "objectID": "Assignment 4.html",
+    "href": "Assignment 4.html",
+    "title": "Assignment 4",
+    "section": "",
+    "text": "Consider this a “proof of concept” as far as getting the map to render correctly…\nI was not sure which package to use, so I referred to this Duke university guide on installing the MapView package.\nThe table should show poverty estimates in each county in New York, but it seems like some data is missing. This seemed to be the case for most other variables I checked, and seems to be an accessibility issue rather than a computational one.\n\n\n\nPoverty estimates in New York by county\n\n\nThis week I will visit office hours and see if I’ve misunderstood something about the package installations or data sources."
+  },
+  {
+    "objectID": "Assignment Three.html",
+    "href": "Assignment Three.html",
+    "title": "Assignment Three",
+    "section": "",
+    "text": "Consider this a “proof of concept” as far as getting the map to render correctly…\nI was not sure which package to use, so I referred to this Duke university guide on installing the MapView package.\nThe table should show poverty estimates in each county in New York, but it seems like some data is missing. This seemed to be the case for most other variables I checked, and seems to be an accessibility issue rather than a computational one.\n\n\n\nPoverty estimates in New York by county\n\n\nThis week I will visit office hours and see if I’ve misunderstood something about the package installations or data sources."
+  },
+  {
+    "objectID": "Assignment Five.html",
+    "href": "Assignment Five.html",
+    "title": "Assignment Five",
+    "section": "",
+    "text": "For the most part, this code was very easy to run, though it certainly helps that the doc IDs are already provided to us!\n\nDifficulties encountered:\n\nrjason not available for my version of r, and I could not find a version to download online, so I did it with the CSV method instead. Strangely, R later nagged me for not installing rjason and installed it for me.\nI also didn’t realize that working/saving directory names are case-sensitive and initially couldn’t figure out where my downloads saved to. Similarly, I thought it would automatically create a new folder, and was surprised when a large number of files randomly populated my “Documents” bar.\n\nUsability: I’m actually not sure what my next step would be (technically/methodologically speaking) if I wanted to do a text analysis. It’s nice to have them as a PDF, but I wouldn’t know how to get it into a dataframe without OCR or some other scanning tool. A lot of them also have unconventional formatting that would be confusing to a robot reader, or unusual fonts, or icons / seals. Reference style isn’t consistent and the footnoted ones have a big gap between reference number and title. Ability to direct-download to CSV would be convenient."
+  },
+  {
+    "objectID": "Assignment Six.html",
+    "href": "Assignment Six.html",
+    "title": "Assignment Six",
+    "section": "",
+    "text": "Presidential analysis: “American” has ramped up in recent years regardless of president or political affiliation. Presidents also seem more inclined to use it near the middle and end of their terms, possibly to seek reelection or “pass the torch” to someone else in the party (or try to leave a unifying legacy)/\n\nWordcloud\n\n\n\nComparison wordcloud\nX-Ray plot\nMulti-keyword x-ray plotObama Keyness\n\n\nInteresting components\n\nWhat an LSA looks like: text by feature\n\n\n\nDFM: word x number of times it appears in each text\n\n\nA neat application of doing a DFM for specific users for clustering/networking analysis\n\n\n\n\n\n\n\nWordfish: a pretty neat text scaling tool that generates visualizations sort of like ScatterText in Python (https://tutorials.quanteda.io/machine-learning/wordfish/)"
+  },
+  {
+    "objectID": "Assignment Four.html",
+    "href": "Assignment Four.html",
+    "title": "Assignment Four",
+    "section": "",
+    "text": "Assignment 4: rVest\nUse rvest_wiki01.R to scrape Foreign reserve data from Wikipedia.\nModifying the function to scrape any given table: something like…\n\nscrape_table &lt;- function(url, xpath_string){\n\nlink = read_html(url)\ntopic &lt;- link %&gt;%\n\nhtml_nodes(xpath=xpath_string) %&gt;%\nhtml_table()\n\ndf &lt;- topic[[1]]\nreturn(df)\n}\n\n\nGet the list of countries in the Foreign Reserve table–works, but some of the data are in the wrong format, or otherwise mislabelled. My changes:\n\nAdjusted column names (https://www.statology.org/how-to-rename-data-frame-columns-in-r/)\nRemoved rows with non-country text (https://www.statology.org/remove-rows-in-r/)\nGot rid of “reference” column (https://www.statology.org/remove-columns-in-r/)\n\nPossible Research Plan: this would be fun with Wikipedia track edits (which you could hypothetically iterate over using the “view page history” function). Finding specific points of contention for an article or set of articles, and then using that as a basis either for evidence of coordinated effort or for some qualitative study about historical memory or changing legacies."
+  },
+  {
+    "objectID": "Trash.html",
+    "href": "Trash.html",
+    "title": "Assignment Three",
+    "section": "",
+    "text": "Consider this a “proof of concept” as far as getting the map to render correctly…\nI was not sure which package to use, so I referred to this Duke university guide on installing the MapView package.\nThe table should show poverty estimates in each county in New York, but it seems like some data is missing. This seemed to be the case for most other variables I checked, and seems to be an accessibility issue rather than a computational one.\n\n\n\nPoverty estimates in New York by county\n\n\nThis week I will visit office hours and see if I’ve misunderstood something about the package installations or data sources."
+  },
+  {
+    "objectID": "info_man.html",
+    "href": "info_man.html",
+    "title": "Information Management",
+    "section": "",
+    "text": "Final Project: (WriteUp) and (App Link)\nAssignment I: Introduction (Download pptx or Slides as PDF)\nAssignment II: Database Structure (Download pptx or Slides as PDF)\nAssignment III: (SQL Queries)\nAssignment IV: (ERDs, SQL Queries)\nAssignment V: (some review)\nAssignment VI: (DataRep, SQL, PostGre)\nAssignment VII: (Old Faithful Modification)\nAssignment VIII: (NBA Shiny App)\nAI Lab: (Word Doc due to image size)"
+  },
+  {
+    "objectID": "data_col.html",
+    "href": "data_col.html",
+    "title": "Weekly Assignments",
+    "section": "",
+    "text": "Assignment One: Quarto Website\nAssignment Two: gTrendsR\nAssignment Three: TidyCensus\nAssignment Four: rVest\nAssignment Five: govData\nAssignment Six: Quanteda\nDataCamp Podcast Writeup"
+  },
+  {
+    "objectID": "Assingment III.html",
+    "href": "Assingment III.html",
+    "title": "Assignment III",
+    "section": "",
+    "text": "Get a list of…\n\nStudents: select name, ID from student\n\n\n\nInstructors: select name from instructor\nDepartments: select dept_name from department\nName, ID, & grade of students who have ever taken a class in the chemistry department”\n\nThe book uses the “except” for this query, but I don’t see a constraint and “except” doesn’t seem to be recognized in SQL lite. So simple response here…\n\nselect distinct student.ID, student.name, takes.grade\nfrom student join takes on student.ID = takes.ID\nwhere course_id in(\n\nselect course_id\nfrom course\nwhere dept_name = ‘Comp. Sci.’)\nBook response here:\n\nselect S.ID, S.name from student as S\nwhere not exists (\n\n(select course_id\nfrom course\nwhere dept_name = ‘Comp. Sci.’)\n\nexcept (select T.course_id\nfrom takes as T\nwhere S.ID = T.ID))\n\n\n\n\nName & ID of students who have not taken a class offered before 2017 (“only taken classes in 2017 and 2018”)\n\nselect distinct student.ID, student.name\nfrom student\njoin takes on student.ID = takes.ID\nwhere (\n\ntakes.year = 2017 OR\ntakes.year = 2018)\n\n\nMaximum salary of instructors in each department, with names, sorted lowest to highest.” Music professor Mozart has the lowest salary.\n\nselect name, dept_name, max(salary)\nfrom instructor\ngroup by dept_name\norder by salary asc\n\n\n\n\n“Instructors who have never given an A” (and/or never taught a class)”\nTricky because “grades” is only in “takes.” Probably easier to find instances of students receiving an A and then exclude the professor from those results.\n\nselect instructor.ID, instructor.name from instructor\njoin teaches on instructor.ID = teaches.id\nwhere teaches.id not in(\n\nselect teaches.ID from teaches\njoin takes on teaches.course_id = takes.course_id\nwhere takes.grade = ‘A’)"
+  },
+  {
+    "objectID": "Assingment III.html#sql-codes-for-people-lists",
+    "href": "Assingment III.html#sql-codes-for-people-lists",
+    "title": "Assignment III",
+    "section": "",
+    "text": "Get a list of…\n\nStudents: select name, ID from student\n\n\n\nInstructors: select name from instructor\nDepartments: select dept_name from department\nName, ID, & grade of students who have ever taken a class in the chemistry department”\n\nThe book uses the “except” for this query, but I don’t see a constraint and “except” doesn’t seem to be recognized in SQL lite. So simple response here…\n\nselect distinct student.ID, student.name, takes.grade\nfrom student join takes on student.ID = takes.ID\nwhere course_id in(\n\nselect course_id\nfrom course\nwhere dept_name = ‘Comp. Sci.’)\nBook response here:\n\nselect S.ID, S.name from student as S\nwhere not exists (\n\n(select course_id\nfrom course\nwhere dept_name = ‘Comp. Sci.’)\n\nexcept (select T.course_id\nfrom takes as T\nwhere S.ID = T.ID))\n\n\n\n\nName & ID of students who have not taken a class offered before 2017 (“only taken classes in 2017 and 2018”)\n\nselect distinct student.ID, student.name\nfrom student\njoin takes on student.ID = takes.ID\nwhere (\n\ntakes.year = 2017 OR\ntakes.year = 2018)\n\n\nMaximum salary of instructors in each department, with names, sorted lowest to highest.” Music professor Mozart has the lowest salary.\n\nselect name, dept_name, max(salary)\nfrom instructor\ngroup by dept_name\norder by salary asc\n\n\n\n\n“Instructors who have never given an A” (and/or never taught a class)”\nTricky because “grades” is only in “takes.” Probably easier to find instances of students receiving an A and then exclude the professor from those results.\n\nselect instructor.ID, instructor.name from instructor\njoin teaches on instructor.ID = teaches.id\nwhere teaches.id not in(\n\nselect teaches.ID from teaches\njoin takes on teaches.course_id = takes.course_id\nwhere takes.grade = ‘A’)"
+  },
+  {
+    "objectID": "A3.html",
+    "href": "A3.html",
+    "title": "Assignment III: Starting with SQL",
+    "section": "",
+    "text": "Get a list of…\n\nStudents: select name, ID from student\n\n\n\nInstructors: select name from instructor\nDepartments: select dept_name from department\nName, ID, & grade of students who have ever taken a class in the chemistry department”\n\nThe book uses the “except” for this query, but I don’t see a constraint and “except” doesn’t seem to be recognized in SQL lite. So simple response here…\n\nselect distinct student.ID, student.name, takes.grade\nfrom student join takes on student.ID = takes.ID\nwhere course_id in(\n\nselect course_id\nfrom course\nwhere dept_name = ‘Comp. Sci.’)\nBook response here:\n\nselect S.ID, S.name from student as S\nwhere not exists (\n\n(select course_id\nfrom course\nwhere dept_name = ‘Comp. Sci.’)\n\nexcept (select T.course_id\nfrom takes as T\nwhere S.ID = T.ID))\n\n\n\n\nName & ID of students who have not taken a class offered before 2017 (“only taken classes in 2017 and 2018”)\n\nselect distinct student.ID, student.name\nfrom student\njoin takes on student.ID = takes.ID\nwhere (\n\ntakes.year = 2017 OR\ntakes.year = 2018)\n\n\nMaximum salary of instructors in each department, with names, sorted lowest to highest.” Music professor Mozart has the lowest salary.\n\nselect name, dept_name, max(salary)\nfrom instructor\ngroup by dept_name\norder by salary asc\n\n\n\n\n“Instructors who have never given an A” (and/or never taught a class)”\nTricky because “grades” is only in “takes.” Probably easier to find instances of students receiving an A and then exclude the professor from those results.\n\nselect instructor.ID, instructor.name from instructor\njoin teaches on instructor.ID = teaches.id\nwhere teaches.id not in(\n\nselect teaches.ID from teaches\njoin takes on teaches.course_id = takes.course_id\nwhere takes.grade = ‘A’)"
+  },
+  {
+    "objectID": "A3.html#sql-codes-for-people-lists",
+    "href": "A3.html#sql-codes-for-people-lists",
+    "title": "Assignment III: Starting with SQL",
+    "section": "",
+    "text": "Get a list of…\n\nStudents: select name, ID from student\n\n\n\nInstructors: select name from instructor\nDepartments: select dept_name from department\nName, ID, & grade of students who have ever taken a class in the chemistry department”\n\nThe book uses the “except” for this query, but I don’t see a constraint and “except” doesn’t seem to be recognized in SQL lite. So simple response here…\n\nselect distinct student.ID, student.name, takes.grade\nfrom student join takes on student.ID = takes.ID\nwhere course_id in(\n\nselect course_id\nfrom course\nwhere dept_name = ‘Comp. Sci.’)\nBook response here:\n\nselect S.ID, S.name from student as S\nwhere not exists (\n\n(select course_id\nfrom course\nwhere dept_name = ‘Comp. Sci.’)\n\nexcept (select T.course_id\nfrom takes as T\nwhere S.ID = T.ID))\n\n\n\n\nName & ID of students who have not taken a class offered before 2017 (“only taken classes in 2017 and 2018”)\n\nselect distinct student.ID, student.name\nfrom student\njoin takes on student.ID = takes.ID\nwhere (\n\ntakes.year = 2017 OR\ntakes.year = 2018)\n\n\nMaximum salary of instructors in each department, with names, sorted lowest to highest.” Music professor Mozart has the lowest salary.\n\nselect name, dept_name, max(salary)\nfrom instructor\ngroup by dept_name\norder by salary asc\n\n\n\n\n“Instructors who have never given an A” (and/or never taught a class)”\nTricky because “grades” is only in “takes.” Probably easier to find instances of students receiving an A and then exclude the professor from those results.\n\nselect instructor.ID, instructor.name from instructor\njoin teaches on instructor.ID = teaches.id\nwhere teaches.id not in(\n\nselect teaches.ID from teaches\njoin takes on teaches.course_id = takes.course_id\nwhere takes.grade = ‘A’)"
+  },
+  {
+    "objectID": "InfoMan_A5.html",
+    "href": "InfoMan_A5.html",
+    "title": "Assignment Five: some review",
+    "section": "",
+    "text": "If some element of an ER diagram is disconnected, that means there is no key linking it to other elements of the graph (i.e. there’s no path by which to reach it organically).\nThe cycle of the graph is that “path,” or how you should navigate between different entities in the schema. The sort of cycle the textbook suggests avoiding is one of “cascading prerequisites,” or entities that are connected by multiple cycles."
+  },
+  {
+    "objectID": "InfoMan_A5.html#question-i-er-as-disconnected-and-cicular",
+    "href": "InfoMan_A5.html#question-i-er-as-disconnected-and-cicular",
+    "title": "Assignment Five: some review",
+    "section": "",
+    "text": "If some element of an ER diagram is disconnected, that means there is no key linking it to other elements of the graph (i.e. there’s no path by which to reach it organically).\nThe cycle of the graph is that “path,” or how you should navigate between different entities in the schema. The sort of cycle the textbook suggests avoiding is one of “cascading prerequisites,” or entities that are connected by multiple cycles."
+  },
+  {
+    "objectID": "InfoMan_A5.html#question-iii-weak-entity-sets",
+    "href": "InfoMan_A5.html#question-iii-weak-entity-sets",
+    "title": "Assignment Five: some review",
+    "section": "Question III: Weak entity sets",
+    "text": "Question III: Weak entity sets\nWeak entity sets solve the problems associated with getting rid of the relationship between two entity sets (i.e. they are now only implicitly related), and only retaining the attributes within the weak entity into its parent entity (no longer uniquely identifiable). With weak entity sets, the identifying relationship makes the entity recognizable, with an explicit relationship to its dependent set, and the ability to participate in other relationships if needed."
+  },
+  {
+    "objectID": "InfoMan_A5.html#question-iv-sql-syntax",
+    "href": "InfoMan_A5.html#question-iv-sql-syntax",
+    "title": "Assignment Five: some review",
+    "section": "Question IV: SQL Syntax",
+    "text": "Question IV: SQL Syntax\n\nQueries\n“ID and name of each employee sho lives in the same city as the location of the company for which the employee works”\nSELECT e.ID, e.person_name\nFROM employee AS e\nJOIN works AS w ON e.ID = w.ID\nJOIN company AS c ON w.company_name = c.company_name\nWHERE e.city = c.city\n“ID and name of each employee who lives in the same city and on the same street as their manager”\nSELECT e.ID, e.person_name\nFROM employee AS e\nJOIN manages AS m ON e.ID = m.ID\nJOIN employee AS man ON m.manager_ID = man.ID\nWHERE e.street = man.street AND e.city = man.city\nNOTE HERE: assuming that “manager” is stored as an employee, i.e. they also have an employee ID that can be easily merged. (Note that I used Claude to explain this distinction).\n“ID and name of each employee who earns more than the average salary of all employees of their company”\nSELECT e.ID, e.person_name\nFROM employee AS e\nJOIN works AS w ON e.ID = w.ID\nWHERE w.salary &gt; (SELECT avg(salary) FROM works)\n\n\nSQL Proofing\nRunning this returns Brandt / Game design twice and Kim’s intro to digital systems once. Per the redundancy with Brandt, it should be SELECT DISTINCT, and capitalization and indentation with NATURAL JOIN is easier to look at in my opinion.\nThat aside, you end up with way fewer pairings than expected because using “natural join” twice after “from” is recursive, i.e. you end up natural joining the results of a natural join instead of natural joining a pair of elements. There’s also the issue that a professor might teach multiple classes, or multiple professors might teach different sections of the same class, so you probably don’t want to join on sections. The following fix worked for me:\nSELECT DISTINCT name, title FROM instructor NATURAL JOIN teaches, course WHERE semester = ‘Spring’ and year = 2017"
+  },
+  {
+    "objectID": "PS4.html",
+    "href": "PS4.html",
+    "title": "Problem Set IV",
+    "section": "",
+    "text": "Ref: https://www.ripublication.com/ijss16/ijssv11n2_05.pdf and https://psy652.colostate.edu/modules/m13-categorical_predictors.html (with interpretation from AI). Since problem gives 1-0, not -1, this is dummy coding not effect coding.\nSo y = 10 + 5x + 4s + 3r + 2sr where either sex or region can be 1 or 0. Intercept = 10, slope = 5, e_{s} = 4, e_{r} = 3, e_{sr} = 2\nNow you want to rewrite this as y = int + 5 + e_{NM} + e_{NF} + e_{SF}, where NMSF are all 0-1 manifestations of SR (M = 1, N = 1, else 0)\nSF: If s,r = 0 then y = 5x + 10 NM: If s,r = 1 then y = 10 + 5x + 4 + 3 + 2 = 5x + 19 NF: If s = 0, r = 1 then y = 10 + 5x + 3 = 5x + 13 ##SM: If s = 1, r = 0 then y = 10 + 5x + 4 = 5x + 14\nNote “dummy variable trap”: you can only find effects with a reference group, which should be SM if it’s the one left out of the original model.\n5x is constant, intercept is the average of all the groups = (10+19+13+14)/4 = 14, and coefficients are the difference from that average.\nSF: 10 - 14 = -4 NM: 19 - 14 = 5 NF: 13 - 14 = -1 SM: 14 - 14 = 0 (this makes sense because it does not appear in the original)\nSo rewrite as y = 14 + 5x + 5NM - NF - 4SF.\nWe just recoded the variables, not changed the actual underlying model, so anything we do regression-wise shouldn’t change, including the results of whatever hypothesis test."
+  },
+  {
+    "objectID": "PS4.html#problem-i-interpreting-results",
+    "href": "PS4.html#problem-i-interpreting-results",
+    "title": "Problem Set IV",
+    "section": "",
+    "text": "Ref: https://www.ripublication.com/ijss16/ijssv11n2_05.pdf and https://psy652.colostate.edu/modules/m13-categorical_predictors.html (with interpretation from AI). Since problem gives 1-0, not -1, this is dummy coding not effect coding.\nSo y = 10 + 5x + 4s + 3r + 2sr where either sex or region can be 1 or 0. Intercept = 10, slope = 5, e_{s} = 4, e_{r} = 3, e_{sr} = 2\nNow you want to rewrite this as y = int + 5 + e_{NM} + e_{NF} + e_{SF}, where NMSF are all 0-1 manifestations of SR (M = 1, N = 1, else 0)\nSF: If s,r = 0 then y = 5x + 10 NM: If s,r = 1 then y = 10 + 5x + 4 + 3 + 2 = 5x + 19 NF: If s = 0, r = 1 then y = 10 + 5x + 3 = 5x + 13 ##SM: If s = 1, r = 0 then y = 10 + 5x + 4 = 5x + 14\nNote “dummy variable trap”: you can only find effects with a reference group, which should be SM if it’s the one left out of the original model.\n5x is constant, intercept is the average of all the groups = (10+19+13+14)/4 = 14, and coefficients are the difference from that average.\nSF: 10 - 14 = -4 NM: 19 - 14 = 5 NF: 13 - 14 = -1 SM: 14 - 14 = 0 (this makes sense because it does not appear in the original)\nSo rewrite as y = 14 + 5x + 5NM - NF - 4SF.\nWe just recoded the variables, not changed the actual underlying model, so anything we do regression-wise shouldn’t change, including the results of whatever hypothesis test."
+  },
+  {
+    "objectID": "PS4.html#problem-ii-constrained-vs.-unconstrained-models",
+    "href": "PS4.html#problem-ii-constrained-vs.-unconstrained-models",
+    "title": "Problem Set IV",
+    "section": "Problem II: Constrained vs. Unconstrained Models",
+    "text": "Problem II: Constrained vs. Unconstrained Models"
+  },
+  {
+    "objectID": "PS4.html#problem-iii-michigan-housing",
+    "href": "PS4.html#problem-iii-michigan-housing",
+    "title": "Problem Set IV",
+    "section": "Problem III: Michigan Housing",
+    "text": "Problem III: Michigan Housing\nRef: Hypothesis testing RMarkdown script"
+  },
+  {
+    "objectID": "PS4.html#problem-iv-testing-hypotheses",
+    "href": "PS4.html#problem-iv-testing-hypotheses",
+    "title": "Problem Set IV",
+    "section": "Problem IV: Testing Hypotheses",
+    "text": "Problem IV: Testing Hypotheses\nRef: Hypothesis testing RMarkdown scripts"
+  },
+  {
+    "objectID": "Assignment III.html",
+    "href": "Assignment III.html",
+    "title": "Assignment III",
+    "section": "",
+    "text": "Get a list of…\n\nStudents: select name, ID from student\n\n\n\nInstructors: select name from instructor\nDepartments: select dept_name from department\nName, ID, & grade of students who have ever taken a class in the chemistry department”\n\nThe book uses the “except” for this query, but I don’t see a constraint and “except” doesn’t seem to be recognized in SQL lite. So simple response here…\n\nselect distinct student.ID, student.name, takes.grade\nfrom student join takes on student.ID = takes.ID\nwhere course_id in(\n\nselect course_id\nfrom course\nwhere dept_name = ‘Comp. Sci.’)\nBook response here:\n\nselect S.ID, S.name from student as S\nwhere not exists (\n\n(select course_id\nfrom course\nwhere dept_name = ‘Comp. Sci.’)\n\nexcept (select T.course_id\nfrom takes as T\nwhere S.ID = T.ID))\n\n\n\n\nName & ID of students who have not taken a class offered before 2017 (“only taken classes in 2017 and 2018”)\n\nselect distinct student.ID, student.name\nfrom student\njoin takes on student.ID = takes.ID\nwhere (\n\ntakes.year = 2017 OR\ntakes.year = 2018)\n\n\nMaximum salary of instructors in each department, with names, sorted lowest to highest.” Music professor Mozart has the lowest salary.\n\nselect name, dept_name, max(salary)\nfrom instructor\ngroup by dept_name\norder by salary asc\n\n\n\n\n“Instructors who have never given an A” (and/or never taught a class)”\nTricky because “grades” is only in “takes.” Probably easier to find instances of students receiving an A and then exclude the professor from those results.\n\nselect instructor.ID, instructor.name from instructor\njoin teaches on instructor.ID = teaches.id\nwhere teaches.id not in(\n\nselect teaches.ID from teaches\njoin takes on teaches.course_id = takes.course_id\nwhere takes.grade = ‘A’)"
+  },
+  {
+    "objectID": "Assignment III.html#sql-codes-for-people-lists",
+    "href": "Assignment III.html#sql-codes-for-people-lists",
+    "title": "Assignment III",
+    "section": "",
+    "text": "Get a list of…\n\nStudents: select name, ID from student\n\n\n\nInstructors: select name from instructor\nDepartments: select dept_name from department\nName, ID, & grade of students who have ever taken a class in the chemistry department”\n\nThe book uses the “except” for this query, but I don’t see a constraint and “except” doesn’t seem to be recognized in SQL lite. So simple response here…\n\nselect distinct student.ID, student.name, takes.grade\nfrom student join takes on student.ID = takes.ID\nwhere course_id in(\n\nselect course_id\nfrom course\nwhere dept_name = ‘Comp. Sci.’)\nBook response here:\n\nselect S.ID, S.name from student as S\nwhere not exists (\n\n(select course_id\nfrom course\nwhere dept_name = ‘Comp. Sci.’)\n\nexcept (select T.course_id\nfrom takes as T\nwhere S.ID = T.ID))\n\n\n\n\nName & ID of students who have not taken a class offered before 2017 (“only taken classes in 2017 and 2018”)\n\nselect distinct student.ID, student.name\nfrom student\njoin takes on student.ID = takes.ID\nwhere (\n\ntakes.year = 2017 OR\ntakes.year = 2018)\n\n\nMaximum salary of instructors in each department, with names, sorted lowest to highest.” Music professor Mozart has the lowest salary.\n\nselect name, dept_name, max(salary)\nfrom instructor\ngroup by dept_name\norder by salary asc\n\n\n\n\n“Instructors who have never given an A” (and/or never taught a class)”\nTricky because “grades” is only in “takes.” Probably easier to find instances of students receiving an A and then exclude the professor from those results.\n\nselect instructor.ID, instructor.name from instructor\njoin teaches on instructor.ID = teaches.id\nwhere teaches.id not in(\n\nselect teaches.ID from teaches\njoin takes on teaches.course_id = takes.course_id\nwhere takes.grade = ‘A’)"
+  },
+  {
+    "objectID": "A6.html",
+    "href": "A6.html",
+    "title": "A6",
+    "section": "",
+    "text": "Look up websites containing the following data representations:\na) Using JSON\nb) Using XML\nAnalyze the websites in terms of structure and composition. Name the technology/methods use for creating the web database.\nJSON looks more like SQL as we’ve learnt it, and XML more like the HTML that appears in my GitHub Quarto uploads (they are both “MarkupLanguage” but the relationship is a bit unclear). Certainly, JSON is easier for me to parse; it is also the file format I typically get with APIs or webscraping, which I’ve found pretty readable in R. (https://www.w3schools.com/js/js_json_xml.asp)\nIt looks like for my use-case, JSON will usually win out because it’s faster, lighter, and more interpretable. But XML is probably relevant for large complex databases, where structural nuances really matter and can better-withstand the data hacking needed to reformat them. This is especially true given that XML has built-in validation through DTD and XSD, which can force data into a structure required for any given professional use-case: legal documents, patient records, anything else where structural inconsistency has significant client-side consequences (https://www.codeitbro.com/blog/json-vs-xml)"
+  },
+  {
+    "objectID": "A6.html#data-representation-comparison",
+    "href": "A6.html#data-representation-comparison",
+    "title": "A6",
+    "section": "",
+    "text": "Look up websites containing the following data representations:\na) Using JSON\nb) Using XML\nAnalyze the websites in terms of structure and composition. Name the technology/methods use for creating the web database.\nJSON looks more like SQL as we’ve learnt it, and XML more like the HTML that appears in my GitHub Quarto uploads (they are both “MarkupLanguage” but the relationship is a bit unclear). Certainly, JSON is easier for me to parse; it is also the file format I typically get with APIs or webscraping, which I’ve found pretty readable in R. (https://www.w3schools.com/js/js_json_xml.asp)\nIt looks like for my use-case, JSON will usually win out because it’s faster, lighter, and more interpretable. But XML is probably relevant for large complex databases, where structural nuances really matter and can better-withstand the data hacking needed to reformat them. This is especially true given that XML has built-in validation through DTD and XSD, which can force data into a structure required for any given professional use-case: legal documents, patient records, anything else where structural inconsistency has significant client-side consequences (https://www.codeitbro.com/blog/json-vs-xml)"
+  },
+  {
+    "objectID": "A6.html#sql-query-practice",
+    "href": "A6.html#sql-query-practice",
+    "title": "A6",
+    "section": "SQL Query Practice",
+    "text": "SQL Query Practice\n\nRewrite following SQL query without subqueries or set operations: SELECT id FROM student EXCEPT SELECT s id FROM advisor WHERE i.id IS NOT NULL\n\nAs written, this says to “return IDs from students, except for students who have an advisor that exists.” In other words, “find students without an advisor,” where you could left-outer-join advisors and students, and just pick the students on the margin (i.e. that have a NULL advisor).\nSELECT id\nFROM student as s\nLEFT OUTER JOIN advisor as a ON s.id = a.s_id\nWHERE a.s_id IS NULL\n\nUsing the university schema, write an SQL query to find the names and IDs of those instructors who teach every course taught in his or her department (i.e., every course that appears in the course relation with the instructor’s department name). Order result by name.\n\nHmmm. A few different ways of thinking about this. Exclude instructors that have NOT taught any given course? Instructors whose number of courses taught, equals the number of courses in the department? These are all the subquery, any of them would require joining department with courses with instructors and “teaches.”\nClaude fixed my syntax, but logic (expanding outwards from the subquery) is: “find all courses an instructor has taught. Find all the courses in the department. Return professors IDs, only where there are no courses in the department that they have not taught.”\nSELECT DISTINCT i.id, i.name\nFROM instructor AS i\nWHERE NOT EXISTS (\nSELECT c.course_id\nFROM course AS c\nWHERE c.dept_name = i.dept_name\nAND c.course_id NOT IN (\nSELECT t.course_id\nFROM teaches AS t\nWHERE t.id = i.id));"
+  },
+  {
+    "objectID": "A6.html#postgre-link",
+    "href": "A6.html#postgre-link",
+    "title": "A6",
+    "section": "PostGre Link",
+    "text": "PostGre Link\nSuccessfully ran in R. Screenshot here."
+  },
+  {
+    "objectID": "InfoMan_A4.html",
+    "href": "InfoMan_A4.html",
+    "title": "InfoMan_A4",
+    "section": "",
+    "text": "Answer 1, 2 and two in 3 (i.e. 3a, 3b | 3b, 3c |3a, 3c). Prepare your answers in presentation format and be ready to present in class\n\nExplain the difference between a weak and a strong entity set. Use an example other than the one in Chapter 6 to illustrate. (Consult Ch. 6, 6.5.3)\n\nA strong entity stands on its own and has a primary key–that is, it makes sense as its own table. A weak entity depends on that strong entity and ceases to exist / make sense without it.\nAs an example, I’m working with legal bills for my final project. An amendment can’t conceptually exist without a bill to attach to. So I have bill-amendment as a weak entity relation in my dataset.\n\nDesign an E-R diagram for keeping track of the scoring statistics of your favorite sports team. You should store the matches played, the scores in each match, the players in each match, and individual player scoring statistics for each match. Summary statistics should be modeled as derived attributes with an explanation as to how they are computed. (Consult: Practice Exercise solutions on textbook website)\n\nDraw the E-R diagram using draw.io.\nExpand to all teams in the league (Hint: add team entity)\n\n\nSee drawings here.\n\nSQL exercise:\n\na) Consider the query select course_id, semester, year, sec_id, avg (tot_cred) from takes natural join student where year = 2017 group by course_id, semester, year, sec_id having count (ID) &gt;= 2;\n\nExplain why appending natural join section in the from clause would not change the result. (Consult Ch. 4, 4.1.1) ii. Test the results using the Online SQL interpreter (https://www.db\u0002book.com/university-lab-dir/sqljs.html))\nWrite an SQL query using the university schema to find the ID of each student who has never taken a course at the university. Do this using no subqueries and no set operations (use an outer join). (Consult Ch. 4, 4.1.3)\n\nThe logic here is “match students to the courses they’ve taken, and then select the students on the margins, i.e. whose class is NULL.” Pragmatically speaking, it’s unclear why they’d be in the database.\nSELECT id\nFROM student AS s\nLEFT OUTER JOIN takes AS t ON t.id = s.id\nWHERE t.id IS NULL\n\nConsider the following database, write a query to find the ID of each employee with no manager. Note that an employee may simply have no manager listed or may have a null manager(use natural left outer join). (Consult Ch. 4, 4.1.3)\n\nSELECT id\nFROM employee AS e\nNATURAL LEFT OUTER JOIN manages AS m\nWHERE m.manager_id IS NULL"
+  }
+]
